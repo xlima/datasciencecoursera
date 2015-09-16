@@ -1,0 +1,37 @@
+Git commands and configurations defined by Code School
+
+To check your current username:
+$ git  X Correct  --global user.name
+
+To set your username:
+$ git  X Correct  --global user.name "Beatrix Kiddo"
+
+To check your email:
+$ git  X Correct  --global user.email
+
+To set your email:
+$ git  X Correct  --global user.email beatrix@deadly-vipers.com
+
+To limit pushes to your current branch:
+$ git  X Correct  --global push.default simple
+
+To default all new branches to fetch and rebase - not merge:
+$ git  X Correct  --global branch.autosetuprebase always
+
+To record any merge conflict resolutions and reuse them automatically:
+$ git  X Correct  --global rerere.enabled true
+
+To colorize git’s output for increased readability:
+$ git  X Correct  --global color.ui true
+
+To create a git s alias:
+$ git  X Correct  --global alias.s "status -s"
+
+To create a git lg alias:
+$ git  X Correct  --global alias.lg "log --oneline --decorate --all --graph"
+
+To configure line endings correctly on Linux/Mac:
+$ git  X Correct  --global core.autocrlf input
+
+To configure line endings correctly on Windows:
+$ git   --global core.autocrlf true
